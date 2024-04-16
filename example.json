@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": { "value": "foo", "searchable": true, "toggleable": false },
+      "city": { "value": "dallas", "searchable": true, "toggleable": true },
+      "category": { "value": "one", "searchable": true, "toggleable": true },
+      "type": { "value": "A", "searchable": true, "toggleable": true },
+      "active": { "value": "FALSE", "searchable": false, "toggleable": true }
+    },
+    {
+      "id": 2,
+      "name": { "value": "bar", "searchable": true, "toggleable": false },
+      "city": { "value": "dallas", "searchable": true, "toggleable": true },
+      "category": { "value": "one", "searchable": true, "toggleable": true },
+      "type": { "value": "B", "searchable": true, "toggleable": true },
+      "active": { "value": "FALSE", "searchable": false, "toggleable": true }
+    },
+    {
+      "id": 3,
+      "name": { "value": "jim", "searchable": true, "toggleable": false },
+      "city": { "value": "san francisco", "searchable": true, "toggleable": true },
+      "category": { "value": "one", "searchable": true, "toggleable": true },
+      "type": { "value": "B", "searchable": true, "toggleable": true },
+      "active": { "value": "TRUE", "searchable": false, "toggleable": true }
+    }
+  ]
