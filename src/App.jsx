@@ -54,7 +54,7 @@ const App = () => {
                 <Col>
                     <Form>
                         <Row>
-                            {headings.filter((heading, index) => index !== 0 && index !== 1).map((heading, index) => (
+                            {headings.filter((heading, index) => !['id', 'name', 'mall'].includes(heading)).map((heading, index) => (
                                 <Col md={3} key={index}>
                                     <Form.Group controlId={`filter${heading}`}>
                                         <Form.Label>{heading}</Form.Label>
